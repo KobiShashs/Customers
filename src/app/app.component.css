@@ -1,0 +1,24 @@
+table{
+margin: auto;
+}
+table, th,td{
+border: 1px solid blue;
+text-align: center;
+}
+tr:nth-child(even){
+background-color: lightblue;
+}
+tr:nth-child(odd){
+background-color: lightcoral;
+}
+tr:first-child{
+background-color: gray;
+}
+div{
+height: 80%;
+overflow: auto;
+}
+
+.center{
+  text-align: center;
+}
